@@ -9,6 +9,53 @@ body {
   line-height: 1.5;
 }
 
+.parentContainer{
+display: flex;
+align-items: center;
+justify-content: space-between;
+background-color: rgb(36, 36, 39);
+}
+
+.title{
+  display: flex;
+  background-color: aqua;
+  padding-left: 50px;
+  padding-right: 5px;
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+.links{
+display: flex;
+justify-content: space-between;
+align-content:flex-end;
+padding-right: 10px;
+}
+
+.hero-banner{
+  background-image: url("/images/02-hero-bg.jpg");
+}
+
+ul{
+  list-style: none;
+}
+
+/* unvisited link */
+a{
+  color: aqua;
+  text-underline-position:under;
+  text-decoration-thickness: 3px;
+}
+/* visited link */
+a:visited {
+  color: aqua;
+}
+
+/* mouse over link */
+a:hover {
+    color: rgb(0, 255, 162);
+  }
+
 h1,
 h2,
 h3,

@@ -2,12 +2,13 @@
 /* general styles */
 
 :root {
-  --bannerbg: url("/images/02-hero-bg.jpg");
-  --surfreport: url("/images/02-portfolio-4.jpg");
-  --LEDWall: url("/images/02-portfolio-1.jpg");
-  --calculator: url("/images/02-portfolio-2.jpg");
-  --pastelpuzzles: url("/images/02-portfolio-3.jpg");
-  --runbuddy: url("/images/02-run-buddy.jpg");
+  --bannerbg: url("../images/02-hero-bg.jpg");
+  --surfreport: url("../images/02-portfolio-4.jpg");
+  --LEDWall: url("../images/02-portfolio-1.jpg");
+  --calculator: url("../images/02-portfolio-2.jpg");
+  --pastelpuzzles: url("../images/02-portfolio-3.jpg");
+  --runbuddy: url("../images/02-run-buddy.jpg");
+
 }
 
 
